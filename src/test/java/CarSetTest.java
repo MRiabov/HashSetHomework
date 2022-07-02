@@ -1,4 +1,3 @@
-import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
@@ -10,6 +9,7 @@ class CarSetTest {
 
     @BeforeEach
     void setUp() {
+        carSet=new CarHashSet();
         for (int i = 0; i < 100; i++) {
             carSet.add(new Car("Brand"+i, i));
         }
@@ -26,7 +26,7 @@ class CarSetTest {
     @Test
     void whenClearSize0() {
         carSet.clear();
-        assertEquals(30,carSet.size());
+        assertEquals(0,carSet.size());
     }
 
     @Test
