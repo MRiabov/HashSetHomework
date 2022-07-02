@@ -23,7 +23,7 @@ class CarSetTest {
         assertFalse(carSet.add(new Car("Brand",1 )));
         assertEquals(101,carSet.size());
     }
-    @Test
+    @Test//
     void whenClearSize0() {
         carSet.clear();
         assertEquals(0,carSet.size());

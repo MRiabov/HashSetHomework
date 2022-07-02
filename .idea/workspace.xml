@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7769c215-bfec-4197-9b9e-67f9037bdb7d" name="Changes" comment="added all functions, testing inbound.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="7769c215-bfec-4197-9b9e-67f9037bdb7d" name="Changes" comment="well, who knew that sets are maps, and not arrays? I know how sets work perfectly fine now, anyway" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,14 +31,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "last_opened_file_path": "C:/Users/Max B413/IdeaProjects/HashSetHomework/src/main/java/Car.java",
+    "two.files.diff.last.used.file": "C:/Users/Max B413/IdeaProjects/HashSetHomework/src/main/java/Car.java"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Max B413\IdeaProjects\HashSetHomework\src\main\java" />
@@ -105,7 +105,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656753239523</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="well, who knew that sets are maps, and not arrays? I know how sets work perfectly fine now, anyway">
+      <created>1656754565777</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1656754565777</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -123,9 +130,19 @@
     <MESSAGE value="Added tests." />
     <MESSAGE value="added HashSet functions." />
     <MESSAGE value="added all functions, testing inbound." />
-    <option name="LAST_COMMIT_MESSAGE" value="added all functions, testing inbound." />
+    <MESSAGE value="well, who knew that sets are maps, and not arrays? I know how sets work perfectly fine now, anyway" />
+    <option name="LAST_COMMIT_MESSAGE" value="well, who knew that sets are maps, and not arrays? I know how sets work perfectly fine now, anyway" />
   </component>
   <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/CarSetTest.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
     <pin-to-top-manager>
       <pinned-members>
         <PinnedItemInfo parentTag="CarHashSet" memberName="size" />

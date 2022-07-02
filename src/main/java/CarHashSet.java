@@ -28,7 +28,7 @@ public class CarHashSet implements CarSet{
                 } else existingElement=existingElement.next;
             }
         }
-    }
+    }//
 
     @Override
     public boolean remove(Car car) {
