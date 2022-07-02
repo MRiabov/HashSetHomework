@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7769c215-bfec-4197-9b9e-67f9037bdb7d" name="Changes" comment="added HashSet functions.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/CarHashSet.java" afterDir="false" />
+    <list default="true" id="7769c215-bfec-4197-9b9e-67f9037bdb7d" name="Changes" comment="added all functions, testing inbound.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/CarSetTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CarSetTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +52,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.CarSetTest.whenAdd3SameObjectsThenSizeIncreaseBy1">
     <configuration name="CarSetTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="HashSetHomework" />
       <option name="PACKAGE_NAME" value="" />
@@ -64,11 +62,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CarSetTest.whenAdd3SameObjectsThenSizeIncreaseBy1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="HashSetHomework" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CarSetTest" />
+      <option name="METHOD_NAME" value="whenAdd3SameObjectsThenSizeIncreaseBy1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CarSetTest.whenAdd3SameObjectsThenSizeIncreaseBy1" />
         <item itemvalue="JUnit.CarSetTest" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SliceToolwindowSettings">
+    <option name="autoScroll" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -86,7 +98,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656700063314</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="added all functions, testing inbound.">
+      <created>1656753239523</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1656753239523</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -103,6 +122,14 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added tests." />
     <MESSAGE value="added HashSet functions." />
-    <option name="LAST_COMMIT_MESSAGE" value="added HashSet functions." />
+    <MESSAGE value="added all functions, testing inbound." />
+    <option name="LAST_COMMIT_MESSAGE" value="added all functions, testing inbound." />
+  </component>
+  <component name="XDebuggerManager">
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="CarHashSet" memberName="size" />
+      </pinned-members>
+    </pin-to-top-manager>
   </component>
 </project>

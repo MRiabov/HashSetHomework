@@ -30,18 +30,6 @@ public class CarHashSet implements CarSet{
         }
     }
 
-    private void increaseArray(){
-        Entry[] newArray = new Entry[array.length*2];
-        for (Entry entry : array) {
-            Entry existingElement=entry;
-            while (existingElement!=null){
-                add(existingElement.value,newArray);
-                existingElement=existingElement.next;
-            }
-        }
-        array=newArray;
-    }
-
     @Override
     public boolean remove(Car car) {
         int position = getElementPosition(car,array.length);
@@ -51,17 +39,19 @@ public class CarHashSet implements CarSet{
                     Entry last=secondLast.next;
                     if (secondLast.value.equals(car)) {
                         array[position]=last;
+                        size--;
                         return true;
                     }else while (last!=null){
                         if (last.value.equals(car)) {
                         secondLast.next=last.next;
+                        size--;
                         return true;
                     } else {
                         secondLast=last;
                         last=last.next;
                     }
 
-                }//array[position]=existingElement.next;
+                }
             }
         return false;
     }
@@ -75,6 +65,18 @@ public class CarHashSet implements CarSet{
     public void clear() {
         array = new Entry[INITIAL_CAPACITY];
         size=0;
+    }
+
+    private void increaseArray(){
+        Entry[] newArray = new Entry[array.length*2];
+        for (Entry entry : array) {
+            Entry existingElement=entry;
+            while (existingElement!=null){
+                add(existingElement.value,newArray);
+                existingElement=existingElement.next;
+            }
+        }
+        array=newArray;
     }
 
     private int getElementPosition(Car car, int arrayLength){
